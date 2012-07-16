@@ -1805,7 +1805,6 @@ status_t OMXCodec::allocateOutputBuffersFromNativeWindow() {
             def.format.video.nFrameHeight,
             eColorFormat);
 #endif
->>>>>>> 4994c6b... Add Samsung OMX and Color Format support (2/2)
 
     if (err != 0) {
         ALOGE("native_window_set_buffers_geometry failed: %s (%d)",
