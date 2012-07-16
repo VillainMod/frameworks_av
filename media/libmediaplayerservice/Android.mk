@@ -6,6 +6,14 @@ LOCAL_PATH:= $(call my-dir)
 
 include $(CLEAR_VARS)
 
+ifeq ($(BOARD_USE_YAMAHAPLAYER),true)
+    LOCAL_SHARED_LIBRARIES += libmediayamahaservice
+endif
+
+ifeq ($(BOARD_USE_SECTVOUT),true)
+    LOCAL_SHARED_LIBRARIES += libTVOut
+endif
+
 LOCAL_SRC_FILES:=               \
     ActivityManager.cpp         \
     Crypto.cpp                  \
