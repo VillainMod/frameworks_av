@@ -46,26 +46,6 @@
 
 namespace android {
 
-#ifdef EXYNOS4_ENHANCEMENTS
-static const int OMX_SEC_COLOR_FormatNV12TPhysicalAddress = 0x7F000001;
-static const int OMX_SEC_COLOR_FormatNV12LPhysicalAddress = 0x7F000002;
-static const int OMX_SEC_COLOR_FormatNV12LVirtualAddress = 0x7F000003;
-static const int OMX_SEC_COLOR_FormatNV12Tiled = 0x7FC00002;
-#ifdef S3D_SUPPORT
-static const int OMX_SEC_COLOR_FormatNV12Tiled_SBS_LR = 0x7FC00003;
-static const int OMX_SEC_COLOR_FormatNV12Tiled_SBS_RL = 0x7FC00004;
-static const int OMX_SEC_COLOR_FormatNV12Tiled_TB_LR = 0x7FC00005;
-static const int OMX_SEC_COLOR_FormatNV12Tiled_TB_RL = 0x7FC00006;
-static const int OMX_SEC_COLOR_FormatYUV420SemiPlanar_SBS_LR = 0x7FC00007;
-static const int OMX_SEC_COLOR_FormatYUV420SemiPlanar_SBS_RL = 0x7FC00008;
-static const int OMX_SEC_COLOR_FormatYUV420SemiPlanar_TB_LR = 0x7FC00009;
-static const int OMX_SEC_COLOR_FormatYUV420SemiPlanar_TB_RL = 0x7FC0000A;
-static const int OMX_SEC_COLOR_FormatYUV420Planar_SBS_LR = 0x7FC0000B;
-static const int OMX_SEC_COLOR_FormatYUV420Planar_SBS_RL = 0x7FC0000C;
-static const int OMX_SEC_COLOR_FormatYUV420Planar_TB_LR = 0x7FC0000D;
-static const int OMX_SEC_COLOR_FormatYUV420Planar_TB_RL = 0x7FC0000E;
-#endif
-#endif
 
 #ifdef EXYNOS4_ENHANCEMENTS
 static const int OMX_SEC_COLOR_FormatNV12TPhysicalAddress = 0x7F000001;
